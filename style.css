@@ -1,0 +1,27 @@
+body {
+  background-color: #06000f;
+  margin: 0;
+}
+img {
+  border-radius: 40px;
+  margin-left: 100px;
+  margin-top: 150px;
+}
+
+h1 {
+  color: white;
+  margin-left: 40px;
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.teamName {
+  color: red;
+  font-size: 80px;
+  font-family: "Bungee Spice", sans-serif;
+}
