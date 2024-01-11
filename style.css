@@ -7,7 +7,7 @@ body {
 }
 img {
   border-radius: 40px;
-  width: 70%;
+  width: 85%;
   height: auto;
   margin: 40px;
 }
@@ -31,15 +31,19 @@ h1 {
 .playerImg {
   width: 100%;
   height: auto;
-  animation: fade 8s linear forwards;
+  animation: fade 6s linear 7;
 }
 
 @keyframes fade {
   0%,
-  100% {
+  33% {
     opacity: 0;
   }
-  75% {
+  33% {
     opacity: 1;
+  }
+  95%,
+  100% {
+    opacity: 0;
   }
 }
