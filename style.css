@@ -31,25 +31,15 @@ h1 {
 .playerImg {
   width: 100%;
   height: auto;
-  animation: fadeIn 5s;
-  animation: fadeOut 7s;
-  animation-delay: 3s;
+  animation: fade 10s linear forwards;
 }
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeOut {
-  0% {
-    opacity: 1;
-  }
+@keyframes fade {
+  0%,
   100% {
     opacity: 0;
+  }
+  75% {
+    opacity: 1;
   }
 }
