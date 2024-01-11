@@ -7,14 +7,14 @@ body {
 }
 img {
   border-radius: 40px;
-  width: 100%;
+  width: 70%;
   height: auto;
   margin: 40px;
 }
 
 h1 {
   color: white;
-  margin-left: 500px;
+
   font-size: 48px;
   margin-bottom: 20px;
 }
@@ -31,7 +31,7 @@ h1 {
 .playerImg {
   width: 100%;
   height: auto;
-  animation: fade 10s linear forwards;
+  animation: fade 8s linear forwards;
 }
 
 @keyframes fade {

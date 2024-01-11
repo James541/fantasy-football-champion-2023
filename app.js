@@ -1,7 +1,20 @@
 const image = document.getElementById("playerImg");
+const button = document.getElementById("button");
 
-const imageArray = [ceedee.jpg, amonra.jpg, dallas2.jpg];
+button.addEventListener("click", changePlayer);
+
+const imageArray = [
+  "amonra.jpg",
+  "kittle.jpg",
+  "devonta.jpg",
+  "cowboys.jpg",
+  "flowers.jpg",
+  "burrow.jpg",
+];
+
+let imgNum = -1;
 
 function changePlayer() {
-  image.src = "";
+  imgNum++;
+  image.src = imageArray[imgNum];
 }
