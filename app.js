@@ -21,8 +21,9 @@ function changePlayer() {
     image.src = imageArray[imgNum];
   } else {
     image.src = "burrow.jpg";
-    headerBigText.innerText = "See you in 2024 Mother Fuckers";
-    headerPlainText.innerText = "--A VERY SPECIAL THANKS TO BROCK PURDY--";
+    headerBigText.innerText =
+      "A VERY SPECIAL THANKS TO BROCK PURDY!! \nSee you in 2024 boys";
+    headerPlainText.innerText = "";
   }
 }
 

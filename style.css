@@ -4,10 +4,11 @@ body {
   align-items: center;
   justify-content: center;
   display: flex;
+  text-align: center;
 }
 img {
   border-radius: 40px;
-  width: 85%;
+  width: 28%;
   height: auto;
   margin: 40px;
 }
@@ -15,21 +16,21 @@ img {
 h1 {
   color: white;
 
-  font-size: 48px;
+  font-size: 24px;
   margin-bottom: 20px;
 }
 
 .imagePair {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 .teamName {
-  font-size: 80px;
+  font-size: 40px;
   font-family: "Bungee Spice", sans-serif;
 }
 
 .playerImg {
-  width: 100%;
+  width: 28%;
   height: auto;
   animation: fade 6s linear 7;
 }
